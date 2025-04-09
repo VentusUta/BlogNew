@@ -4,7 +4,55 @@
 <title><![CDATA[Ventus Uta 的网络日志]]></title>
 <description><![CDATA[Ventus Uta 的网络日志]]></description>
 <link>https://blognew.ventusuta.com/</link>
-<lastBuildDate>Wed, 09 Apr 2025 16:40:20 -0400</lastBuildDate>
+<lastBuildDate>Wed, 09 Apr 2025 16:51:53 -0400</lastBuildDate>
+<item>
+  <title><![CDATA[常见字体相关混淆名词]]></title>
+  <description><![CDATA[
+<p>
+如果有错误还请指正，此文主要谈中文，一部分应也适用于西文。
+</p>
+
+<p>
+迁移过来的时候，图片丢失了。
+</p>
+
+<ul class="org-ul">
+<li>Typeface（字体风格）
+<ul class="org-ul">
+<li>如平常最常见的“楷”“宋”“黑”“仿”。</li>
+</ul></li>
+<li>Glyph form / Appearance（字形）
+<ul class="org-ul">
+<li>指字的形体，如“旧字形”“规范汉字”“日本新字体”“国字标准字体”等。</li>
+</ul></li>
+<li>Weight（字重）
+<ul class="org-ul">
+<li>指字体粗细（粗幼）。</li>
+</ul></li>
+<li>Font size（字号）
+<ul class="org-ul">
+<li>指字体尺寸，如“一号”“小五”“12 pt”等。</li>
+</ul></li>
+<li>Glyph（字符）
+<ul class="org-ul">
+<li>通常指单个字符的样式，或指这个字符。</li>
+</ul></li>
+<li>Font（字体）
+<ul class="org-ul">
+<li>包含一套字符的印刷铅字或字体软件。</li>
+</ul></li>
+<li>Font family（字族）
+<ul class="org-ul">
+<li>指一套字体，通常包含不同的字重 / 风格，在印刷时还可能根据不同的字号来调整字体的细节。</li>
+</ul></li>
+</ul>
+<div class="taglist"><a href="https://blognew.ventusuta.com/Labels.html">标签</a>: <a href="https://blognew.ventusuta.com/tag-字体.html">字体</a> <a href="https://blognew.ventusuta.com/tag-排版.html">排版</a> </div>]]></description>
+  <category><![CDATA[字体]]></category>
+  <category><![CDATA[排版]]></category>
+  <link>https://blognew.ventusuta.com/2025-04-09-%E5%B8%B8%E8%A7%81%E5%AD%97%E4%BD%93%E7%9B%B8%E5%85%B3%E6%B7%B7%E6%B7%86%E5%90%8D%E8%AF%8D.html</link>
+  <guid>https://blognew.ventusuta.com/2025-04-09-%E5%B8%B8%E8%A7%81%E5%AD%97%E4%BD%93%E7%9B%B8%E5%85%B3%E6%B7%B7%E6%B7%86%E5%90%8D%E8%AF%8D.html</guid>
+  <pubDate>Wed, 09 Apr 2025 16:42:00 -0400</pubDate>
+</item>
 <item>
   <title><![CDATA[Hello world, org-mode!]]></title>
   <description><![CDATA[
