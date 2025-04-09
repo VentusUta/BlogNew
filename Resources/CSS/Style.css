@@ -1,0 +1,38 @@
+* {
+    text-rendering: geometricPrecision !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+    font-family: Comme-WebFont;
+    src: url(Resources/Fonts/Comme[wght].woff2) format("woff2-variations");
+}
+
+@font-face {
+    font-family: GeistMono-WebFont;
+    src: url(Resources/Fonts/GeistMono[wght].woff2) format("woff2-variations");
+}
+
+body {
+    font-family: Comme-WebFont, sans-serif;
+}
+
+code, pre {
+    font-family: GeistMono-WebFont, monospace, sans-serif;
+}
+
+#preamble {
+    font-size: x-large;
+}
+
+#content {
+    font-size: medium;
+}
+
+#postamble {
+    font-size: small;
+}
+
+#IndexFrontMatter {
+    font-size: large;
+}

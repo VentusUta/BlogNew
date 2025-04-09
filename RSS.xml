@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title><![CDATA[Ventus Uta 的网络日志]]></title>
+<description><![CDATA[Ventus Uta 的网络日志]]></description>
+<link>https://blognew.ventusuta.com/</link>
+<lastBuildDate>Wed, 09 Apr 2025 14:16:45 -0400</lastBuildDate>
+<item>
+  <title><![CDATA[Hello world, org-mode!]]></title>
+  <description><![CDATA[
+<p>
+你好！
+</p>
+<div class="taglist"></div>]]></description>
+  <link>https://blognew.ventusuta.com/2025-04-09-hello-world,-org-mode!.html</link>
+  <guid>https://blognew.ventusuta.com/2025-04-09-hello-world,-org-mode!.html</guid>
+  <pubDate>Wed, 09 Apr 2025 13:02:00 -0400</pubDate>
+</item>
+</channel>
+</rss>
