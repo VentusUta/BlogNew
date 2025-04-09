@@ -19,7 +19,7 @@ a {
 
 body {
     font-family: Comme-WebFont, sans-serif;
-    max-width: 768px;
+    max-width: 600px;
 }
 
 code, pre {
@@ -34,14 +34,16 @@ code, pre {
 .post-title {
     margin-block-start: 0;
     margin-block-end: 0;
+    margin-bottom: 1rem;
 }
 
 .header {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-size: large;
 }
 
-#archive {
+.navbar, #archive {
     box-shadow: 1px 1px 1px silver;
     border-radius: 4px 4px 4px 4px;
     border: 1px solid;
