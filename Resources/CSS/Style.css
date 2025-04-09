@@ -26,8 +26,8 @@ code, pre {
     font-family: GeistMono-WebFont, monospace, sans-serif;
 }
 
-.post-date, .post-title, #archive, .navbar, .header {
-    margin: auto;
+.post-date, .post-title, #archive .header {
+    text-align: center;
 }
 
 .header {
@@ -38,6 +38,10 @@ code, pre {
     box-shadow: 1px 1px 1px silver;
     border-radius: 4px 4px 4px 4px;
     border: 1px solid;
+}
+
+.navbar {
+    margin: auto;
 }
 
 #content {
