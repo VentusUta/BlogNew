@@ -20,22 +20,6 @@ a {
 body {
     font-family: Comme-WebFont, sans-serif;
     max-width: 600px;
-    a:link {
-	color: green;
-    }
-
-    a:visited {
-	color: teal;
-    }
-
-    a:hover {
-	color: white;
-	background-color: olive;
-    }
-
-    a:active {
-	border: dashed;
-    }
 }
 
 code, pre {
@@ -59,4 +43,39 @@ code, pre {
 
 .navbar {
     margin: auto;
+}
+
+#content {
+    a:link {
+	color: green;
+    }
+
+    a:visited {
+	color: teal;
+    }
+
+    a:hover {
+	color: white;
+	background-color: olive;
+    }
+
+    a:active {
+	border: dashed;
+    }
+}
+
+.status {
+    a:link, a:visited {
+	color: navy;
+    }
+
+    a:hover {
+	color: blue;
+	background-color: initial;
+	text-decoration: underline;
+    }
+
+    a:active {
+	border: dashed;
+    }
 }
