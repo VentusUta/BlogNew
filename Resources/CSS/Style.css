@@ -17,45 +17,45 @@ a {
     text-decoration: none;
 }
 
-a:link {
-    color: green;
-    background-color: silver;
-}
-
-a:visited {
-    color: teal;
-    background-color: silver;
-}
-
-a:hover {
-    color: white;
-    background-color: olive;
-}
-
-a:active {
-    border: dashed;
-}
-
 body {
     font-family: Comme-WebFont, sans-serif;
+    max-width: 768px;
 }
 
 code, pre {
     font-family: GeistMono-WebFont, monospace, sans-serif;
 }
 
-#preamble {
-    font-size: x-large;
+.post-date::before {
+    content: "📅 ";
+}
+
+.post-title {
+    margin-block-start: 0;
+    text-align: center;
+}
+
+.header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 #content {
-    font-size: medium;
-}
+    a:link {
+	color: green;
+    }
 
-#postamble {
-    font-size: small;
-}
+    a:visited {
+	color: teal;
+    }
 
-#IndexFrontMatter {
-    font-size: large;
+    a:hover {
+	color: white;
+	background-color: olive;
+    }
+
+    a:active {
+	border: dashed;
+    }
 }
