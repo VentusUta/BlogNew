@@ -13,6 +13,29 @@
     src: url(/Resources/Fonts/GeistMono[wght].woff2) format("woff2-variations");
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: green;
+    background-color: silver;
+}
+
+a:visited {
+    color: teal;
+    background-color: silver;
+}
+
+a:hover {
+    color: white;
+    background-color: olive;
+}
+
+a:active {
+    border: dashed;
+}
+
 body {
     font-family: Comme-WebFont, sans-serif;
 }
