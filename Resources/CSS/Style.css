@@ -26,12 +26,13 @@ code, pre {
     font-family: GeistMono-WebFont, monospace, sans-serif;
 }
 
-.post-date, .post-title, #archive .header {
+.post-date, .post-title, #archive, .header {
     text-align: center;
 }
 
 .header {
     font-size: xx-large;
+    margin-bottom: 2rem;
 }
 
 .navbar td, #archive {
