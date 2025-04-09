@@ -26,24 +26,15 @@ code, pre {
     font-family: GeistMono-WebFont, monospace, sans-serif;
 }
 
-.post-date, .post-title, .header, #archive {
-    text-align: center;
-    
-}
-
-.post-title {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-bottom: 1rem;
+.post-date, .post-title, #archive, .navbar, .header {
+    margin: auto;
 }
 
 .header {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: large;
+    font-size: xx-large;
 }
 
-.navbar, #archive {
+.navbar td, #archive {
     box-shadow: 1px 1px 1px silver;
     border-radius: 4px 4px 4px 4px;
     border: 1px solid;
