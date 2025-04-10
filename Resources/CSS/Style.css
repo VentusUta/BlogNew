@@ -62,6 +62,24 @@ code, pre {
     margin: auto;
 }
 
-.blogroll {
-    line-height: 2rem;
+.blogroll td {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    box-shadow: 0px 1px 1px silver;
+    text-align: center;
+}
+
+.blogroll td:first-child {
+    border-left: 1px solid;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.blogroll td:last-child {
+    border-right: 1px solid;
+    box-shadow: 1px 1px 1px silver;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.blogroll img{
+    width: 2rem;
 }
