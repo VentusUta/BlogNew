@@ -52,7 +52,7 @@ code, pre {
     margin-bottom: 1rem;
 }
 
-.navbar td, #archive {
+.navbar td, #archive, .blogroll tr {
     box-shadow: 1px 1px 1px silver;
     border-radius: 4px 4px 4px 4px;
     border: 1px solid;
@@ -60,4 +60,8 @@ code, pre {
 
 .navbar {
     margin: auto;
+}
+
+.blogroll {
+    line-height: 2rem;
 }
