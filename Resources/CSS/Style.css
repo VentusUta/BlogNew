@@ -85,8 +85,8 @@
 
 @font-face {
     font-family: Hanzi-WebFont;
-    font-weight: normal;
-    font-style: normal;
+    font-weight: bold;
+    font-style: italic;
     src: url(/Resources/Fonts/LXGWZhenKaiGB-Regular.ttf);
 }
 
