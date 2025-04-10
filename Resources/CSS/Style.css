@@ -3,14 +3,91 @@
     -webkit-font-smoothing: antialiased !important;
 }
 
+/* -- charter -- */
 @font-face {
-    font-family: Comme-WebFont;
-    src: url(/Resources/Fonts/Comme[wght].woff2) format("woff2-variations");
+    font-family: Charter-WebFont;
+    font-weight: normal;
+    font-style: normal;
+    src: url(/Resources/Fonts/Charter-Regular.woff2);
 }
 
 @font-face {
-    font-family: GeistMono-WebFont;
-    src: url(/Resources/Fonts/GeistMono[wght].woff2) format("woff2-variations");
+    font-family: Charter-WebFont;
+    font-weight: normal;
+    font-style: italic;
+    src: url(/Resources/Fonts/Charter-Italic.woff2);
+}
+
+@font-face {
+    font-family: Charter-WebFont;
+    font-weight: bold;
+    font-style: normal;
+    src: url(/Resources/Fonts/Charter-Bold.woff2);
+}
+
+@font-face {
+    font-family: Charter-WebFont;
+    font-weight: bold;
+    font-style: italic;
+    src: url(/Resources/Fonts/Charter-BoldItalic.woff2);
+}
+
+/* -- monaspace */
+@font-face {
+    font-family: MonaspaceXenon-WebFont;
+    font-weight: normal;
+    font-style: normal;
+    src: url(/Resources/Fonts/MonaspaceXenon-Regular.woff2);
+}
+
+@font-face {
+    font-family: MonaspaceXenon-WebFont;
+    font-weight: normal;
+    font-style: italic;
+    src: url(/Resources/Fonts/MonaspaceXenon-Italic.woff2);
+}
+
+@font-face {
+    font-family: MonaspaceXenon-WebFont;
+    font-weight: bold;
+    font-style: normal;
+    src: url(/Resources/Fonts/MonaspaceXenon-Bold.woff2);
+}
+
+@font-face {
+    font-family: MonaspaceXenon-WebFont;
+    font-weight: bold;
+    font-style: italic;
+    src: url(/Resources/Fonts/MonaspaceXenon-BoldItalic.woff2);
+}
+
+/* -- 汉字 -- */
+@font-face {
+    font-family: Hanzi-WebFont;
+    font-weight: normal;
+    font-style: normal;
+    src: url(/Resources/Fonts/NotoSerifCJKsc-Regular.otf);
+}
+
+@font-face {
+    font-family: Hanzi-WebFont;
+    font-weight: normal;
+    font-style: italic;
+    src: url(/Resources/Fonts/LXGWWenKaiGB-Regular.ttf);
+}
+
+@font-face {
+    font-family: Hanzi-WebFont;
+    font-weight: bold;
+    font-style: normal;
+    src: url(/Resources/Fonts/NotoSerifCJKsc-Bold.otf);
+}
+
+@font-face {
+    font-family: Hanzi-WebFont;
+    font-weight: normal;
+    font-style: normal;
+    src: url(/Resources/Fonts/LXGWZhenKaiGB-Regular.ttf);
 }
 
 a {
@@ -35,12 +112,12 @@ a:active {
 }
 
 body {
-    font-family: Comme-WebFont, sans-serif;
+    font-family: Charter-WebFont, Hanzi-WebFont, serif;
     max-width: 600px;
 }
 
 code, pre {
-    font-family: GeistMono-WebFont, monospace, sans-serif;
+    font-family: MonaspaceXenon-WebFont, monospace, Hanzi-WebFont, serif;
 }
 
 .post-date, .post-title, #archive, .header, .title {
